@@ -6,7 +6,7 @@
         <v-divider></v-divider>
         <v-card flat>
           <p class="mt-4">Fill in the form below to get in touch</p>
-          <v-form>
+          <v-form netlify>
             <v-card-text class="pl-0">
               <v-text-field
                 name="name"
