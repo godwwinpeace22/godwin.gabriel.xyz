@@ -89,6 +89,7 @@ export default {
   },
 
   generate: {
+    fallback: true,
     routes: function() {
       const fs = require('fs');
       const path = require('path');
