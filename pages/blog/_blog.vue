@@ -9,8 +9,7 @@
             lazy-src="../sunset-pool.jpg"
             width="100%" 
             height="400"
-            class="grey lighten-2 linkified"
-            @click="$router.push(`/blog/${blogPost.slug}`)"
+            class="grey lighten-2"
           >
             <template v-slot:placeholder>
               <v-row
