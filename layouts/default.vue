@@ -91,7 +91,7 @@ export default {
 				{ name: "contact", link: "/contact" },
 			],
 			icons: [
-				{ name: "linkedin", link: "https:/linkedin.com/in/godwin-gabriel" },
+				{ name: "linkedin", link: "https://linkedin.com/in/godwin-gabriel" },
 				{ name: "twitter", link: "https://twitter.com/godwinpeace22" },
 				{ name: "github", link: "https://github.com/godwwinpeace22" },
 				{ name: "email", link: "mailto:godwin@godwingabriel.xyz" },
