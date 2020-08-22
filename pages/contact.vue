@@ -13,11 +13,7 @@
                 label="Your Name*"
                 outlined
               ></v-text-field>
-              <v-text-field
-                name="email"
-                label="Email*"
-                outlined
-              ></v-text-field>
+              <v-text-field name="email" label="Email*" outlined></v-text-field>
               <v-textarea
                 name="message"
                 label="Your Message*"
@@ -27,12 +23,7 @@
             </v-card-text>
 
             <v-card-actions>
-              <v-btn 
-                color="info"
-                depressed
-                large
-                type="submit"
-              >Submit</v-btn>
+              <v-btn color="info" depressed large type="submit">Submit</v-btn>
             </v-card-actions>
           </v-form>
         </v-card>
@@ -42,11 +33,7 @@
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>

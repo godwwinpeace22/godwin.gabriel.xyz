@@ -94,7 +94,7 @@ export default {
 				{ name: "linkedin", link: "https://linkedin.com/in/godwin-gabriel" },
 				{ name: "twitter", link: "https://twitter.com/godwinpeace22" },
 				{ name: "github", link: "https://github.com/godwwinpeace22" },
-				{ name: "email", link: "mailto:godwin@godwingabriel.xyz" },
+				{ name: "email", link: "mailto:godwinpeace22@gmail.com" },
 			],
 		};
 	},

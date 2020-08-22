@@ -1,16 +1,18 @@
 {
-  "name": "mywebsite",
+  "name": "godwingabriel",
   "version": "1.0.0",
-  "description": "My impeccable Nuxt.js project",
+  "description": "",
   "author": "Godwin Gabriel",
   "private": true,
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
+    "postbuild": "netlify deploy",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@babel/helper-compilation-targets": "^7.10.4",
     "@nuxtjs/axios": "^5.3.6",
     "@nuxtjs/markdownit": "^1.2.7",
     "@nuxtjs/pwa": "^3.0.0-0",
