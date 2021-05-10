@@ -17,17 +17,11 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on }">
                       <v-icon large color="white" v-on="on"
-                        >mdi-{{ skill }}</v-icon
+                        >mdi-{{ skill.icon }}</v-icon
                       >
                     </template>
                     <span>
-                      {{
-                        skill.split("language-")[1]
-                          ? skill.split("language-")[1]
-                          : skill == "database"
-                          ? "mongodb"
-                          : skill
-                      }}
+                      {{ skill.text }}
                     </span>
                   </v-tooltip>
                 </v-avatar>
@@ -73,81 +67,87 @@ export default {
     },
     mySkills() {
       return [
-        "nodejs",
-        "language-javascript",
-        "language-php",
-        "vuejs",
-        "firebase",
-        "jquery",
-        "language-html5",
-        "language-css3",
-        "wordpress",
-        "vuetify",
-        "database",
+        { text: "Nodejs", icon: "nodejs" },
+        { text: "Javascript", icon: "language-javascript" },
+        { text: "PHP", icon: "language-php" },
+        { text: "Vue", icon: "vuejs" },
+        { text: "Firebase", icon: "firebase" },
+        { text: "React", icon: "react" },
+        { text: "HTML 5", icon: "language-html5" },
+        { text: "CSS3", icon: "language-css3" },
+        { text: "Wordpress", icon: "wordpress" },
+        { text: "Vuetify", icon: "vuetify" },
+
+        { text: "React Native", icon: "android" }
       ];
     },
     projects() {
       return [
         {
+          name: "Coinedge FX",
+          link: "https://coinedgefx.com",
+          about: "Invest in crypto"
+        },
+        {
           name: "Finance Edge",
           link: "https://financeedge.uk",
-          about: "Invest in Forex, Real Estate and Crypto",
+          about: "Invest in Forex, Real Estate and Crypto"
         },
         {
           name: "Lashr",
           link: "https://getlashr.com",
-          about: "Find and book personal services",
+          about: "Find and book personal services"
         },
         {
           name: "Beyound Graphics Academy",
           link: "https://beyondgraphicsacademy.com.ng",
-          about: "Website for a top-notch Graphics design academy",
+          about: "Website for a top-notch Graphics design academy"
         },
         {
           name: "Voteryte",
           link: "https://voteryte.com",
-          about: "Decentralized voting app built on the blockchain",
+          about: "Decentralized voting app built on the blockchain"
         },
         {
           name: "Hotelsmart",
           link: "https://hotelsmart.com.ng",
-          about: "Online OTA and Hotel management system",
+          about: "Online OTA and Hotel management system"
         },
         {
           name: "Docuhelp",
           link: "https://github.com/godwwinpeace22/docuhelp",
           about:
-            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support.",
+            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support."
         },
         {
           name: "Nigerian cities and attraction",
           link: "https://www.npmjs.com/package/nigerian-cities-and-attractions",
           about:
-            "An api to get a comprehensive list of major cities in Nigeria and their attractions",
+            "An api to get a comprehensive list of major cities in Nigeria and their attractions"
         },
         {
           name: "QView.ai",
           link: "https://qview.ai",
-          about: "Push and email notifications for qview.ai",
+          about: "Push and email notifications for qview.ai"
         },
         {
           name: "Styleblog",
           link: "https://github.com/godwwinpeace22/styleblog",
-          about: "A simple cms in PHP",
+          about: "A simple cms in PHP"
         },
         {
           name: "TSG Media",
           link: "https://thesaintsgathering.com.ng",
-          about: "Interface for TSG media files",
+          about: "Interface for TSG media files"
         },
         {
           name: "Lighthouse Parish",
           link: "http://rccglighthouse.com.ng/",
-          about: "RCCG Lighthouse Parish website",
-        },
+          about: "RCCG Lighthouse Parish website"
+        }
       ];
-    },
-  },
+    }
+  }
 };
 </script>
 
