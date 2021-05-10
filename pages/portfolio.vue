@@ -85,7 +85,7 @@ export default {
       return [
         {
           name: "Coinedge FX",
-          link: "https://coinedgefx.com",
+          link: "https://app.coinedgefx.com",
           about: "Invest in crypto"
         },
         {
