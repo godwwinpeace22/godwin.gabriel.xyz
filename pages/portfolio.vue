@@ -78,76 +78,82 @@ export default {
         { text: "Wordpress", icon: "wordpress" },
         { text: "Vuetify", icon: "vuetify" },
 
-        { text: "React Native", icon: "android" }
+        { text: "React Native", icon: "android" },
       ];
     },
     projects() {
       return [
         {
+          name: "Guestsmart",
+          link: "https://guestsmart.ng",
+          about:
+            "Simplified customer ordering and reservations for restaurants and hotels",
+        },
+        {
           name: "Coinedge FX",
           link: "https://app.coinedgefx.com",
-          about: "Invest in crypto"
+          about: "Invest in crypto",
         },
         {
           name: "Finance Edge",
           link: "https://financeedge.uk",
-          about: "Invest in Forex, Real Estate and Crypto"
+          about: "Invest in Forex, Real Estate and Crypto",
         },
         {
           name: "Lashr",
           link: "https://getlashr.com",
-          about: "Find and book personal services"
+          about: "Find and book personal services",
         },
         {
           name: "Beyound Graphics Academy",
           link: "https://beyondgraphicsacademy.com.ng",
-          about: "Website for a top-notch Graphics design academy"
+          about: "Website for a top-notch Graphics design academy",
         },
         {
           name: "Voteryte",
           link: "https://voteryte.com",
-          about: "Decentralized voting app built on the blockchain"
+          about: "Decentralized voting app built on the blockchain",
         },
         {
           name: "Hotelsmart",
           link: "https://hotelsmart.com.ng",
-          about: "Online OTA and Hotel management system"
+          about: "Online OTA and Hotel management system",
         },
         {
           name: "Docuhelp",
           link: "https://github.com/godwwinpeace22/docuhelp",
           about:
-            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support."
+            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support.",
         },
         {
           name: "Nigerian cities and attraction",
           link: "https://www.npmjs.com/package/nigerian-cities-and-attractions",
           about:
-            "An api to get a comprehensive list of major cities in Nigeria and their attractions"
+            "An api to get a comprehensive list of major cities in Nigeria and their attractions",
         },
         {
           name: "QView.ai",
           link: "https://qview.ai",
-          about: "Push and email notifications for qview.ai"
+          about: "Push and email notifications for qview.ai",
         },
         {
           name: "Styleblog",
           link: "https://github.com/godwwinpeace22/styleblog",
-          about: "A simple cms in PHP"
+          about: "A simple cms in PHP",
         },
         {
           name: "TSG Media",
           link: "https://thesaintsgathering.com.ng",
-          about: "Interface for TSG media files"
+          about: "Interface for TSG media files",
         },
         {
           name: "Lighthouse Parish",
           link: "http://rccglighthouse.com.ng/",
-          about: "RCCG Lighthouse Parish website"
-        }
+          about: "RCCG Lighthouse Parish website",
+        },
       ];
-    }
-  }
+    },
+  },
 };
 </script>
 
