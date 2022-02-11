@@ -90,24 +90,14 @@ export default {
             "Simplified customer ordering and reservations for restaurants and hotels",
         },
         {
-          name: "Coinedge FX",
-          link: "https://app.coinedgefx.com",
-          about: "Invest in crypto",
-        },
-        {
-          name: "Finance Edge",
-          link: "https://financeedge.uk",
-          about: "Invest in Forex, Real Estate and Crypto",
+          name: "The Saints Gathering Church",
+          link: "https://thesaintsgathering.org",
+          about: "The Saints Gathering Church Website",
         },
         {
           name: "Lashr",
           link: "https://getlashr.com",
           about: "Find and book personal services",
-        },
-        {
-          name: "Beyound Graphics Academy",
-          link: "https://beyondgraphicsacademy.com.ng",
-          about: "Website for a top-notch Graphics design academy",
         },
         {
           name: "Voteryte",
@@ -140,16 +130,6 @@ export default {
           name: "Styleblog",
           link: "https://github.com/godwwinpeace22/styleblog",
           about: "A simple cms in PHP",
-        },
-        {
-          name: "TSG Media",
-          link: "https://thesaintsgathering.com.ng",
-          about: "Interface for TSG media files",
-        },
-        {
-          name: "Lighthouse Parish",
-          link: "http://rccglighthouse.com.ng/",
-          about: "RCCG Lighthouse Parish website",
         },
       ];
     },

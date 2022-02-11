@@ -1,12 +1,8 @@
 <template>
   <v-row justify="center">
     <v-col cols="12" sm="10" md="10" class="mt-md-8">
-      <div class="display-2">
-        Hi, I'm Godwin
-      </div>
-      <p class="hero-text mt-5">
-        I solve problems with code.
-      </p>
+      <div class="display-2">Hi, I'm Godwin</div>
+      <p class="hero-text mt-5">I solve problems with code.</p>
     </v-col>
 
     <v-col cols="12" md="10">
@@ -44,15 +40,15 @@
 export default {
   data: () => ({
     limit_posts: 4,
-    about_me: `I am a full-stack engineer with a flare for design. I like to build awesome software from small business websites to rich interactive web apps. 
-      When not coding I enjoy playing the piano, leaning piano and meeting new people.`
+    about_me: `I am a full-stack engineer with a flare for design. I like to build awesome software from small business websites to rich interactive web apps. Need a website or a mobile app? Contact me! 
+      When not coding I enjoy playing the piano and meeting new people.`,
   }),
   computed: {
     blogPosts() {
       let posts = [...this.$store.state.blogPosts];
       return posts
         .sort((a, b) => a.date_created - b.date_created)
-        .map(item => {
+        .map((item) => {
           let d = new Date(item.date_created);
 
           return {
@@ -60,18 +56,18 @@ export default {
             date_created: d.toLocaleString("en-Us", {
               month: "short",
               day: "numeric",
-              year: "numeric"
-            })
+              year: "numeric",
+            }),
           };
         });
     },
     recentPosts() {
       return this.blogPosts.slice(0, 4);
-    }
+    },
   },
   components: {
-    BlogCard
-  }
+    BlogCard,
+  },
 };
 
 import BlogCard from "@/components/BlogCard.vue";
