@@ -1,0 +1,37 @@
+[
+  {
+    "name": "blog",
+    "path": "/blog",
+    "component": "/Users/godwin/Dev/godwin.gabriel.xyz/pages/blog/index.vue",
+    "chunkName": "pages/blog/index",
+    "_name": "_86bb64aa"
+  },
+  {
+    "name": "contact",
+    "path": "/contact",
+    "component": "/Users/godwin/Dev/godwin.gabriel.xyz/pages/contact.vue",
+    "chunkName": "pages/contact",
+    "_name": "_6044140a"
+  },
+  {
+    "name": "portfolio",
+    "path": "/portfolio",
+    "component": "/Users/godwin/Dev/godwin.gabriel.xyz/pages/portfolio.vue",
+    "chunkName": "pages/portfolio",
+    "_name": "_50a714b2"
+  },
+  {
+    "name": "blog-blog",
+    "path": "/blog/:blog",
+    "component": "/Users/godwin/Dev/godwin.gabriel.xyz/pages/blog/_blog.vue",
+    "chunkName": "pages/blog/_blog",
+    "_name": "_6a8ac44c"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/godwin/Dev/godwin.gabriel.xyz/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_fa2cc788"
+  }
+]
