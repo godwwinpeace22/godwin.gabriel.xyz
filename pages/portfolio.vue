@@ -30,6 +30,7 @@
           </v-col>
           <v-col cols="12" md="10">
             <h3 class="mt-3 mb-5 display-1">Recent Work</h3>
+
             <v-list three-line>
               <template v-for="project in projects">
                 <v-list-item
@@ -78,62 +79,94 @@ export default {
         { text: "Wordpress", icon: "wordpress" },
         { text: "Vuetify", icon: "vuetify" },
 
-        { text: "React Native", icon: "android" },
+        { text: "React Native", icon: "android" }
       ];
     },
     projects() {
       return [
         {
+          name: "FollowThePromises",
+          link: "",
+          about:
+            "FollowThePromises is a citizen led and tech-driven public accountability project by ReadyToLeadAfrica, targeted at measuring the execution of promises by State Governors across the country."
+        },
+        {
+          name: "A023",
+          link: "https://play.google.com/store/apps/details?id=com.ao23.ao23",
+          about: "Campaign monitoring and election results collation mobile app"
+        },
+        {
+          name: "Artsplit",
+          link: "http://artsplit.com/",
+          about:
+            "ARTSPLIT is an art technology platform that enables you to own and earn from fractions of valuable African artworks and music, all with the common goal of raising the global profile of African artists and art."
+        },
+        {
+          name: "OCP Africa",
+          link: "https://ocp-v2.vercel.app/",
+          about: ""
+        },
+        {
+          name: "51st ICAN Conference Mobile App",
+          link: "https://apps.apple.com/us/app/id1591915451?platform=iphone",
+          about: ""
+        },
+        {
+          name: "",
+          link: "",
+          about: ""
+        },
+        {
           name: "Guestsmart",
           link: "https://guestsmart.ng",
           about:
-            "Simplified customer ordering and reservations for restaurants and hotels",
+            "Simplified customer ordering and reservations for restaurants and hotels"
         },
         {
           name: "The Saints Gathering Church",
           link: "https://thesaintsgathering.org",
-          about: "The Saints Gathering Church Website",
+          about: "The Saints Gathering Church Website"
         },
         {
           name: "Lashr",
           link: "https://getlashr.com",
-          about: "Find and book personal services",
+          about: "Find and book personal services"
         },
         {
           name: "Voteryte",
           link: "https://voteryte.com",
-          about: "Decentralized voting app built on the blockchain",
+          about: "Decentralized voting app built on the blockchain"
         },
         {
           name: "Hotelsmart",
           link: "https://hotelsmart.com.ng",
-          about: "Online OTA and Hotel management system",
+          about: "Online OTA and Hotel management system"
         },
         {
           name: "Docuhelp",
           link: "https://github.com/godwwinpeace22/docuhelp",
           about:
-            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support.",
+            "Free and opensource knowledgebase/self-service widget in Javascript with Markdown support."
         },
         {
           name: "Nigerian cities and attraction",
           link: "https://www.npmjs.com/package/nigerian-cities-and-attractions",
           about:
-            "An api to get a comprehensive list of major cities in Nigeria and their attractions",
+            "An api to get a comprehensive list of major cities in Nigeria and their attractions"
         },
         {
           name: "QView.ai",
           link: "https://qview.ai",
-          about: "Push and email notifications for qview.ai",
+          about: "Push and email notifications for qview.ai"
         },
         {
           name: "Styleblog",
           link: "https://github.com/godwwinpeace22/styleblog",
-          about: "A simple cms in PHP",
-        },
+          about: "A simple cms in PHP"
+        }
       ];
-    },
-  },
+    }
+  }
 };
 </script>
 
