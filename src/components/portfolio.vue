@@ -91,7 +91,7 @@ export default {
             "Real estate platform to buy, sell and rent or shortlet properties from anywhere in the world",
         },
         {
-          name: "FollowThePromises",
+          name: "FollowThePromises App",
           link: "https://play.google.com/store/apps/details?id=com.rtla.follow_the_promises",
           about: "FollowThePromises  mobile app for iOS and Android",
         },
@@ -123,32 +123,20 @@ export default {
           link: "https://apps.apple.com/us/app/id1591915451?platform=iphone",
           about: "",
         },
-        {
-          name: "",
-          link: "",
-          about: "",
-        },
+
         {
           name: "Guestsmart",
           link: "https://guestsmart.ng",
           about:
             "Simplified customer ordering and reservations for restaurants and hotels",
         },
-        {
-          name: "The Saints Gathering Church",
-          link: "https://thesaintsgathering.org",
-          about: "The Saints Gathering Church Website",
-        },
+
         {
           name: "Lashr",
           link: "https://getlashr.com",
           about: "Find and book personal services",
         },
-        {
-          name: "Voteryte",
-          link: "https://voteryte.com",
-          about: "Decentralized voting app built on the blockchain",
-        },
+
         {
           name: "Hotelsmart",
           link: "https://hotelsmart.com.ng",
