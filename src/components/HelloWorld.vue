@@ -9,8 +9,11 @@
       <h3 class="mt-8">ABOUT</h3>
       <v-divider></v-divider>
       <v-card flat class="mt-2">
-        <v-card-text class="pl-0 text-body-1 text-medium-emphasis">
+        <v-card-text class="pl-0 mb-2 text-body-1 text-medium-emphasis">
           {{ about_me }}
+        </v-card-text>
+        <v-card-text class="pl-0 text-body-1 text-medium-emphasis">
+          {{ interest }}
         </v-card-text>
         <v-card-actions class="pl-0">
           <router-link to="/contact">
@@ -34,8 +37,8 @@
 export default {
   data: () => ({
     limit_posts: 4,
-    about_me: `I am a full-stack engineer with a flare for design. I love to build awesome software. Need a website, web app or a mobile app? Contact me! 
-      When not coding I enjoy playing the piano and meeting new people.`,
+    about_me: `I am a full-stack engineer with a flare for design. I love to build awesome software. Need a website, web app or a mobile app? Contact me!`,
+    interest: `When not coding I enjoy playing the piano and meeting new people.`,
   }),
   computed: {
     blogPosts() {
