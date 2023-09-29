@@ -34,15 +34,15 @@
 export default {
   data: () => ({
     limit_posts: 4,
-    about_me: `I am a full-stack engineer with a flare for design. I like to build awesome software from small business websites to rich interactive web apps. Need a website or a mobile app? Contact me! 
-      When not coding I enjoy playing the piano and meeting new people.`
+    about_me: `I am a full-stack engineer with a flare for design. I love to build awesome software. Need a website, web app or a mobile app? Contact me! 
+      When not coding I enjoy playing the piano and meeting new people.`,
   }),
   computed: {
     blogPosts() {
       let posts = [...this.$store.state.blogPosts];
       return posts
         .sort((a, b) => a.date_created - b.date_created)
-        .map(item => {
+        .map((item) => {
           let d = new Date(item.date_created);
 
           return {
@@ -50,15 +50,15 @@ export default {
             date_created: d.toLocaleString("en-Us", {
               month: "short",
               day: "numeric",
-              year: "numeric"
-            })
+              year: "numeric",
+            }),
           };
         });
     },
     recentPosts() {
       return this.blogPosts.slice(0, 4);
-    }
-  }
+    },
+  },
 };
 </script>
 
